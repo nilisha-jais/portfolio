@@ -295,6 +295,10 @@ body.dark .container-1{
  body.dark h3{
 	 color:darkgoldenrod;
  }
+body.dark  #education .card {
+    background-color:black;
+}
+ 
  
 @media (max-width: 600px) { 
 	h1{
@@ -501,10 +505,6 @@ footer{
 	text-align: center;
 	color:white;
 }
-.skills{
-	text-align: center;
-	margin-top: 40px;
-}
 
 .container-btn {
 	align-items: center;
@@ -690,3 +690,23 @@ footer{
   .bar-outer.right {
 	transition-delay: 0;
   }
+#education, #skills{
+	  align-items: center;
+	  text-align: center;
+  }
+  #education .card {
+    background-color:cadetblue;
+    border-radius: 3;
+}
+.plang {
+    border-radius: 6px;
+    box-shadow: 5px 0 15px rgb(92, 91, 91);
+    position: relative;
+    transform: scale(.95);
+    transition: all .3s ease;
+}
+.img-icon {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
