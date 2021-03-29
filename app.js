@@ -60,3 +60,7 @@ options.forEach(option =>
   }
   current = option.index;
 }));
+
+AOS.init({
+  duration: 1200,
+})
