@@ -1,0 +1,224 @@
+:root {
+    --kprimary: black;
+    --kprimary2:rgb(248, 152, 128);
+    --kprimary3:blanchedalmond;
+    --kprimary4: rgb(80, 41, 117);
+    --kprimary5: #fdec6e;
+    --kheadings:blanchedalmond;
+}
+
+html {
+    min-height: 100%;
+    
+}
+
+body {
+    background-color: var(--kprimary);
+    color: var(--kprimary3);
+    overflow-x: hidden;
+    font-family: 'Rubik', sans-serif;
+}
+
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 9999;
+    overflow: hidden;
+    background: #000000;
+  }
+  
+  #preloader:before {
+    content: "";
+    position: fixed;
+    top: calc(50% - 30px);
+    left: calc(50% - 30px);
+    border: 6px solid purple;
+    border-top-color: #fff;
+    border-bottom-color: #fff;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    -webkit-animation: animate-preloader 1s linear infinite;
+    animation: animate-preloader 1s linear infinite;
+  }
+  
+  @-webkit-keyframes animate-preloader {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  @keyframes animate-preloader {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+
+.hello{
+	padding: 10px;
+	background-color:rgb(240, 181, 98);
+	display: inline;
+	border-radius: 20px 20px 20px 0px;
+	font-size:20px;
+	line-height: 40px;
+}
+.name2 {
+    font-family: 'Josefin Slab', serif;
+}
+#name{
+   color:var(--kprimary4);
+}
+.social-icon{
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	text-decoration: none;
+	border-radius: 100%;
+	margin-right: 20px;
+	margin-top: 20px;
+	
+	/*margin-bottom: -130px;*/
+	filter:grayscale(100);
+  }
+  .social-icon:hover {
+	filter: grayscale(0);
+  } 
+  
+  .svg-instagram {
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	text-decoration: none;
+	border-radius: 100%;
+  }
+  #main li {
+	display: inline-block;
+	margin-bottom: 30px;
+
+  }
+.navbar {
+    background-color: var(--kprimary4);
+}
+.navbar .nav-link {
+    font-size: 15px;
+    text-transform: uppercase;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+}
+.navbar .nav-item.active {
+    border-left: #444 3px solid;
+}
+#about {
+    margin-top: 3rem;
+}
+#about .icon {
+    color: var(--kprimary3);
+}
+.abc {
+    font-family: 'Josefin Slab', serif;
+    color:rgb(240, 181, 98);
+    font-size: 50px;
+}
+#education .card {
+    background-color: var(--kprimary4);
+    border-radius: 3;
+}
+.img-icon {
+    height: 4rem;
+    width: 4rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.plang {
+    border-radius: 6px;
+    box-shadow: 5px 0 15px rgba(0,0,0,.25);
+    position: relative;
+    transform: scale(.95);
+    transition: all .3s ease;
+}
+#experience .card {
+    background-color: var(--kprimary4);
+}
+#community .card {
+    background-color:  var(--kprimary4);
+}
+#about2 .card {
+  background-color:  var(--kprimary4);
+}
+#achievements .card {
+    background-color:  var(--kprimary4);
+}
+#projects .card {
+    background-color:  var(--kprimary4);
+}
+#open-source .card {
+  background-color:  var(--kprimary4);
+}
+#blog .card {
+    background-color:  var(--kprimary4);
+}
+#blog .about-img {
+    height: 6rem;
+    width: 6rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1rem;
+}
+#blog .icon {
+    color: #f5f7fa;
+}
+
+hr {
+    border-top: 1px solid #f5f7fa;
+}
+
+video {
+    height: 20rem;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+button {
+	background: none;
+	border: 2px solid;
+	line-height: 1;
+	margin: 0.5em;
+	
+	transition: 0.25s;
+	color:rgb(255, 170, 51);
+    border-color:rgb(255, 170, 51);
+  }
+.raise:hover,
+.raise:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em black;
+  transform: translateY(-0.25em);
+  border-color: black;
+  color: black;
+  
+}
+.ab{
+  padding: 1em 2em;
+}
+.proj{
+  padding: 0.5em 1em;
+}
+.project-img{
+  height: 250px;
+}
+#my{
+ border-radius: 25%;
+ margin-top: 80px;
+ height: 350px;
+}
